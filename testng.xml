@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CarRental">
+  <test thread-count="5" name="Regression">
+    <classes>
+      <class name="com.mysite.regression.AdminManageBrands"/>
+      <class name="com.mysite.regression.AdminCreateBrand"/>
+      <class name="com.mysite.regression.AdminDashboard"/>
+      <class name="com.mysite.regression.FullTest"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- CarRental -->
